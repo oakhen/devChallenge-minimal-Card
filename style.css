@@ -1,0 +1,64 @@
+body {
+  font-family: "Sora", sans-serif;
+  padding: 0;
+  margin: 0;
+  background: silver;
+  box-sizing: border-box;
+}
+
+#card {
+  max-width: 368px;
+  background: white;
+  border-radius: 16px;
+  margin: 164px auto;
+}
+
+.display-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-image img {
+  width: 336px;
+  height: 152px;
+  border-radius: 16px;
+  margin: 16px;
+}
+
+#card .catagory {
+  display: inline-block;
+  background: #e6d6fc;
+  color: #883ae1;
+  font-weight: 500;
+  margin: 16px;
+  margin-top: 0;
+  padding: 4px 16px;
+  border-radius: 50px;
+}
+
+.description {
+  margin: 0 16px;
+}
+
+.description p {
+  color: #6c727f;
+  margin-top: 6px;
+}
+
+.description h2 {
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+.bottom-line {
+  margin-top: 20px;
+  width: 100%;
+  background: #e5eaf0;
+  height: 2px;
+}
+
+.username {
+  color: #6c727f;
+  padding: 0 16px 20px;
+}
